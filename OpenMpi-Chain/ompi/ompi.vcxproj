@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="attribute\attribute.c" />
+    <ClCompile Include="attribute\attribute_predefined.c" />
+    <ClCompile Include="class\ompi_seq_tracker.c" />
+    <ClCompile Include="communicator\comm.c" />
+    <ClCompile Include="communicator\comm_cid.c" />
+    <ClCompile Include="communicator\comm_init.c" />
+    <ClCompile Include="communicator\comm_request.c" />
+    <ClCompile Include="contrib\libompitrace\abort.c" />
+    <ClCompile Include="contrib\libompitrace\accumulate.c" />
+    <ClCompile Include="contrib\libompitrace\address.c" />
+    <ClCompile Include="contrib\libompitrace\add_error_class.c" />
+    <ClCompile Include="contrib\libompitrace\add_error_code.c" />
+    <ClCompile Include="contrib\libompitrace\add_error_string.c" />
+    <ClCompile Include="contrib\libompitrace\allgather.c" />
+    <ClCompile Include="contrib\libompitrace\allgatherv.c" />
+    <ClCompile Include="contrib\libompitrace\alloc_mem.c" />
+    <ClCompile Include="contrib\libompitrace\allreduce.c" />
+    <ClCompile Include="contrib\libompitrace\barrier.c" />
+    <ClCompile Include="contrib\libompitrace\bcast.c" />
+    <ClCompile Include="contrib\libompitrace\finalize.c" />
+    <ClCompile Include="contrib\libompitrace\init.c" />
+    <ClCompile Include="contrib\libompitrace\isend.c" />
+    <ClCompile Include="contrib\libompitrace\recv.c" />
+    <ClCompile Include="contrib\libompitrace\reduce.c" />
+    <ClCompile Include="contrib\libompitrace\request_free.c" />
+    <ClCompile Include="contrib\libompitrace\send.c" />
+    <ClCompile Include="contrib\libompitrace\sendrecv.c" />
+    <ClCompile Include="datatype\ompi_datatype_args.c" />
+    <ClCompile Include="datatype\ompi_datatype_create.c" />
+    <ClCompile Include="datatype\ompi_datatype_create_contiguous.c" />
+    <ClCompile Include="datatype\ompi_datatype_create_darray.c" />
+    <ClCompile Include="datatype\ompi_datatype_create_indexed.c" />
+    <ClCompile Include="datatype\ompi_datatype_create_struct.c" />
+    <ClCompile Include="datatype\ompi_datatype_create_subarray.c" />
+    <ClCompile Include="datatype\ompi_datatype_create_vector.c" />
+    <ClCompile Include="datatype\ompi_datatype_external.c" />
+    <ClCompile Include="datatype\ompi_datatype_external32.c" />
+    <ClCompile Include="datatype\ompi_datatype_get_elements.c" />
+    <ClCompile Include="datatype\ompi_datatype_match_size.c" />
+    <ClCompile Include="datatype\ompi_datatype_module.c" />
+    <ClCompile Include="datatype\ompi_datatype_sndrcv.c" />
+    <ClCompile Include="debuggers\dlopen_test.c" />
+    <ClCompile Include="debuggers\ompi_common_dll.c" />
+    <ClCompile Include="debuggers\ompi_debuggers.c" />
+    <ClCompile Include="debuggers\ompi_debugger_canary.c" />
+    <ClCompile Include="debuggers\ompi_msgq_dll.c" />
+    <ClCompile Include="debuggers\predefined_gap_test.c" />
+    <ClCompile Include="debuggers\predefined_pad_test.c" />
+    <ClCompile Include="dpm\dpm.c" />
+    <ClCompile Include="errhandler\errcode-internal.c" />
+    <ClCompile Include="errhandler\errcode.c" />
+    <ClCompile Include="errhandler\errhandler.c" />
+    <ClCompile Include="errhandler\errhandler_invoke.c" />
+    <ClCompile Include="errhandler\errhandler_predefined.c" />
+    <ClCompile Include="file\file.c" />
+    <ClCompile Include="group\group.c" />
+    <ClCompile Include="group\group_bitmap.c" />
+    <ClCompile Include="group\group_init.c" />
+    <ClCompile Include="group\group_plist.c" />
+    <ClCompile Include="group\group_set_rank.c" />
+    <ClCompile Include="group\group_sporadic.c" />
+    <ClCompile Include="group\group_strided.c" />
+    <ClCompile Include="info\info.c" />
+    <ClCompile Include="mca\bml\base\bml_base_btl.c" />
+    <ClCompile Include="mca\bml\base\bml_base_endpoint.c" />
+    <ClCompile Include="mca\bml\base\bml_base_frame.c" />
+    <ClCompile Include="mca\bml\base\bml_base_ft.c" />
+    <ClCompile Include="mca\bml\base\bml_base_init.c" />
+    <ClCompile Include="mca\bml\r2\bml_r2.c" />
+    <ClCompile Include="mca\bml\r2\bml_r2_component.c" />
+    <ClCompile Include="mca\bml\r2\bml_r2_ft.c" />
+    <ClCompile Include="mca\coll\base\coll_base_allgather.c" />
+    <ClCompile Include="mca\coll\base\coll_base_allgatherv.c" />
+    <ClCompile Include="mca\coll\base\coll_base_allreduce.c" />
+    <ClCompile Include="mca\coll\base\coll_base_alltoall.c" />
+    <ClCompile Include="mca\coll\base\coll_base_alltoallv.c" />
+    <ClCompile Include="mca\coll\base\coll_base_barrier.c" />
+    <ClCompile Include="mca\coll\base\coll_base_bcast.c" />
+    <ClCompile Include="mca\coll\base\coll_base_comm_select.c" />
+    <ClCompile Include="mca\coll\base\coll_base_comm_unselect.c" />
+    <ClCompile Include="mca\coll\base\coll_base_find_available.c" />
+    <ClCompile Include="mca\coll\base\coll_base_frame.c" />
+    <ClCompile Include="mca\coll\base\coll_base_gather.c" />
+    <ClCompile Include="mca\coll\base\coll_base_reduce.c" />
+    <ClCompile Include="mca\coll\base\coll_base_reduce_scatter.c" />
+    <ClCompile Include="mca\coll\base\coll_base_scatter.c" />
+    <ClCompile Include="mca\coll\base\coll_base_topo.c" />
+    <ClCompile Include="mca\coll\base\coll_base_util.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_allgather.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_allgatherv.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_allreduce.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_alltoall.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_alltoallv.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_alltoallw.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_barrier.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_bcast.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_component.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_exscan.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_gather.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_gatherv.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_module.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_allgather.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_allgatherv.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_alltoall.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_alltoallv.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_alltoallw.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_reduce.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_reduce_scatter.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_reduce_scatter_block.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_scan.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_scatter.c" />
+    <ClCompile Include="mca\coll\basic\coll_basic_scatterv.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_allreduce.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_component.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_exscan.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_module.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_reduce.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_reduce_scatter_block.c" />
+    <ClCompile Include="mca\coll\cuda\coll_cuda_scan.c" />
+    <ClCompile Include="mca\coll\fca\coll_fca_component.c" />
+    <ClCompile Include="mca\coll\fca\coll_fca_module.c" />
+    <ClCompile Include="mca\coll\fca\coll_fca_ops.c" />
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_component.c" />
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_module.c" />
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_ops.c" />
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_rte.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_allgather.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_allgatherv.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_allreduce.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_bcast.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_component.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_gather.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_gatherv.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_reduce.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_scatter.c" />
+    <ClCompile Include="mca\coll\inter\coll_inter_scatterv.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="attribute\attribute.h" />
+    <ClInclude Include="class\ompi_seq_tracker.h" />
+    <ClInclude Include="communicator\communicator.h" />
+    <ClInclude Include="communicator\comm_request.h" />
+    <ClInclude Include="datatype\ompi_datatype.h" />
+    <ClInclude Include="datatype\ompi_datatype_internal.h" />
+    <ClInclude Include="debuggers\debuggers.h" />
+    <ClInclude Include="debuggers\msgq_interface.h" />
+    <ClInclude Include="debuggers\ompi_common_dll_defs.h" />
+    <ClInclude Include="debuggers\ompi_msgq_dll_defs.h" />
+    <ClInclude Include="dpm\dpm.h" />
+    <ClInclude Include="errhandler\errcode-internal.h" />
+    <ClInclude Include="errhandler\errcode.h" />
+    <ClInclude Include="errhandler\errhandler.h" />
+    <ClInclude Include="errhandler\errhandler_predefined.h" />
+    <ClInclude Include="file\file.h" />
+    <ClInclude Include="group\group.h" />
+    <ClInclude Include="group\group_dbg.h" />
+    <ClInclude Include="include\mpif-constants.h" />
+    <ClInclude Include="include\mpif-externals.h" />
+    <ClInclude Include="include\mpif-handles.h" />
+    <ClInclude Include="include\mpif-io-constants.h" />
+    <ClInclude Include="include\mpif-io-handles.h" />
+    <ClInclude Include="include\mpif-sentinels.h" />
+    <ClInclude Include="include\ompi\constants.h" />
+    <ClInclude Include="include\ompi\frameworks.h" />
+    <ClInclude Include="include\ompi\memchecker.h" />
+    <ClInclude Include="include\ompi\totalview.h" />
+    <ClInclude Include="include\ompi\types.h" />
+    <ClInclude Include="include\ompi_config.h" />
+    <ClInclude Include="info\info.h" />
+    <ClInclude Include="mca\bml\base\base.h" />
+    <ClInclude Include="mca\bml\base\bml_base_btl.h" />
+    <ClInclude Include="mca\bml\r2\bml_r2.h" />
+    <ClInclude Include="mca\bml\r2\bml_r2_ft.h" />
+    <ClInclude Include="mca\coll\base\base.h" />
+    <ClInclude Include="mca\coll\base\coll_base_functions.h" />
+    <ClInclude Include="mca\coll\base\coll_base_topo.h" />
+    <ClInclude Include="mca\coll\base\coll_base_util.h" />
+    <ClInclude Include="mca\coll\base\coll_tags.h" />
+    <ClInclude Include="mca\coll\basic\coll_basic.h" />
+    <ClInclude Include="mca\coll\cuda\coll_cuda.h" />
+    <ClInclude Include="mca\coll\fca\coll_fca.h" />
+    <ClInclude Include="mca\coll\fca\coll_fca_api.h" />
+    <ClInclude Include="mca\coll\fca\coll_fca_convertor.h" />
+    <ClInclude Include="mca\coll\fca\coll_fca_debug.h" />
+    <ClInclude Include="mca\coll\hcoll\coll_hcoll.h" />
+    <ClInclude Include="mca\coll\hcoll\coll_hcoll_debug.h" />
+    <ClInclude Include="mca\coll\hcoll\coll_hcoll_dtypes.h" />
+    <ClInclude Include="mca\coll\inter\coll_inter.h" />
+    <ClInclude Include="mca\mca.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{b4347227-064f-454f-8738-227e5f33e9f2}</ProjectGuid>
+    <Keyword>DynamicLibrary</Keyword>
+    <RootNamespace>ompi</RootNamespace>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <IncludePath>E:\HPIPS文档\OpenMpi-Chain;E:\HPIPS文档\OpenMpi-Chain\ompi\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

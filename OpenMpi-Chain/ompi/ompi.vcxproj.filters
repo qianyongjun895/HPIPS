@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{632d373b-785c-4685-865c-eb4a1b799743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class">
+      <UniqueIdentifier>{963bd690-15b7-46e3-a86e-f484631edac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmmunicator">
+      <UniqueIdentifier>{403e2752-5782-4997-9b5d-38dd3af388ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib">
+      <UniqueIdentifier>{3d09ee65-444a-4b19-8046-e15a6e39c38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\libompitrace">
+      <UniqueIdentifier>{54c620fa-adf8-463a-acc8-d45aef9149f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="datatype">
+      <UniqueIdentifier>{ff096b5e-57b1-4a42-8a00-59af814b0a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debuggers">
+      <UniqueIdentifier>{1f1f97ab-f896-40d1-8f63-0ca13fb3f93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpm">
+      <UniqueIdentifier>{ff20ed1d-4cce-4d55-9ad2-eece8c55101a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="errhandler">
+      <UniqueIdentifier>{b49f7315-e692-40dd-abd4-a4b0bf9fed7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{8d3aaabc-a075-4a15-8301-40f68d957c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="group">
+      <UniqueIdentifier>{eedbdac5-9a7e-490f-b70e-5bea678d35df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f6713f23-73b5-4756-82a1-927eeaf1842f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ompi">
+      <UniqueIdentifier>{f62aef92-7fa1-416c-86da-d86dd2f77aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="info">
+      <UniqueIdentifier>{fbbff9db-9912-483e-b11d-629b828643ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca">
+      <UniqueIdentifier>{9e5fe7a7-202c-471c-b866-fcfcf44f730e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\bml">
+      <UniqueIdentifier>{acfe9746-7f11-4b74-a14f-4a57b9ba06bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\bml\base">
+      <UniqueIdentifier>{a43925f1-f030-4680-adf3-05e759e0cb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\bml\r2">
+      <UniqueIdentifier>{b0a3a932-711f-4799-b84f-b1c19dcfe9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll">
+      <UniqueIdentifier>{aa590862-3f3b-4ec6-9c79-91b53c527154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\base">
+      <UniqueIdentifier>{d68352b6-2766-4710-b955-3ba133f96c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\basic">
+      <UniqueIdentifier>{dd658176-4430-4b6d-a99b-666b0acdddc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\cuda">
+      <UniqueIdentifier>{5104c8ff-c1d1-4b96-99a3-5e6af051ed9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\fca">
+      <UniqueIdentifier>{47e2c22a-0e79-4757-8bf3-b737103f38af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\hcoll">
+      <UniqueIdentifier>{7705719c-8443-419c-80bc-544bf823c621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mca\coll\inter">
+      <UniqueIdentifier>{4dc1aff7-68c3-481e-9f0b-9969ced33312}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="attribute\attribute.c">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="attribute\attribute_predefined.c">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="class\ompi_seq_tracker.c">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="communicator\comm.c">
+      <Filter>cmmunicator</Filter>
+    </ClCompile>
+    <ClCompile Include="communicator\comm_cid.c">
+      <Filter>cmmunicator</Filter>
+    </ClCompile>
+    <ClCompile Include="communicator\comm_init.c">
+      <Filter>cmmunicator</Filter>
+    </ClCompile>
+    <ClCompile Include="communicator\comm_request.c">
+      <Filter>cmmunicator</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\abort.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\accumulate.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\add_error_class.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\add_error_code.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\add_error_string.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\address.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\allgather.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\allgatherv.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\alloc_mem.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\allreduce.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\barrier.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\bcast.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\finalize.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\init.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\isend.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\recv.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\reduce.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\request_free.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\send.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\libompitrace\sendrecv.c">
+      <Filter>contrib\libompitrace</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_args.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create_contiguous.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create_darray.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create_indexed.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create_struct.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create_subarray.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_create_vector.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_external.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_external32.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_get_elements.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_match_size.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_module.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype\ompi_datatype_sndrcv.c">
+      <Filter>datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\dlopen_test.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\ompi_common_dll.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\ompi_debugger_canary.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\ompi_debuggers.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\ompi_msgq_dll.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\predefined_gap_test.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="debuggers\predefined_pad_test.c">
+      <Filter>debuggers</Filter>
+    </ClCompile>
+    <ClCompile Include="dpm\dpm.c">
+      <Filter>dpm</Filter>
+    </ClCompile>
+    <ClCompile Include="errhandler\errcode.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="errhandler\errcode-internal.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="errhandler\errhandler.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="errhandler\errhandler_invoke.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="errhandler\errhandler_predefined.c">
+      <Filter>errhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="file\file.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group_bitmap.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group_init.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group_plist.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group_set_rank.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group_sporadic.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="group\group_strided.c">
+      <Filter>group</Filter>
+    </ClCompile>
+    <ClCompile Include="info\info.c">
+      <Filter>info</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\base\bml_base_btl.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\base\bml_base_endpoint.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\base\bml_base_frame.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\base\bml_base_ft.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\base\bml_base_init.c">
+      <Filter>mca\bml\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\r2\bml_r2.c">
+      <Filter>mca\bml\r2</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\r2\bml_r2_component.c">
+      <Filter>mca\bml\r2</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\bml\r2\bml_r2_ft.c">
+      <Filter>mca\bml\r2</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_allgather.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_allgatherv.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_allreduce.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_alltoall.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_alltoallv.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_barrier.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_bcast.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_comm_select.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_comm_unselect.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_find_available.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_frame.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_gather.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_reduce.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_reduce_scatter.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_scatter.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_topo.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\base\coll_base_util.c">
+      <Filter>mca\coll\base</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_allgather.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_allgatherv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_allreduce.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_alltoall.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_alltoallv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_alltoallw.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_barrier.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_bcast.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_component.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_exscan.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_gather.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_gatherv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_module.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_allgather.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_allgatherv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_alltoall.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_alltoallv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_neighbor_alltoallw.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_reduce.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_reduce_scatter.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_reduce_scatter_block.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_scan.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_scatter.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\basic\coll_basic_scatterv.c">
+      <Filter>mca\coll\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_allreduce.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_component.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_exscan.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_module.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_reduce.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_reduce_scatter_block.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\cuda\coll_cuda_scan.c">
+      <Filter>mca\coll\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\fca\coll_fca_component.c">
+      <Filter>mca\coll\fca</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\fca\coll_fca_module.c">
+      <Filter>mca\coll\fca</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\fca\coll_fca_ops.c">
+      <Filter>mca\coll\fca</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_component.c">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_module.c">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_ops.c">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\hcoll\coll_hcoll_rte.c">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_allgather.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_allgatherv.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_allreduce.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_bcast.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_component.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_gather.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_gatherv.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_reduce.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_scatter.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+    <ClCompile Include="mca\coll\inter\coll_inter_scatterv.c">
+      <Filter>mca\coll\inter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="attribute\attribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="class\ompi_seq_tracker.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="communicator\comm_request.h">
+      <Filter>cmmunicator</Filter>
+    </ClInclude>
+    <ClInclude Include="communicator\communicator.h">
+      <Filter>cmmunicator</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype\ompi_datatype.h">
+      <Filter>datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype\ompi_datatype_internal.h">
+      <Filter>datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="debuggers\debuggers.h">
+      <Filter>debuggers</Filter>
+    </ClInclude>
+    <ClInclude Include="debuggers\msgq_interface.h">
+      <Filter>debuggers</Filter>
+    </ClInclude>
+    <ClInclude Include="debuggers\ompi_common_dll_defs.h">
+      <Filter>debuggers</Filter>
+    </ClInclude>
+    <ClInclude Include="debuggers\ompi_msgq_dll_defs.h">
+      <Filter>debuggers</Filter>
+    </ClInclude>
+    <ClInclude Include="dpm\dpm.h">
+      <Filter>dpm</Filter>
+    </ClInclude>
+    <ClInclude Include="errhandler\errcode.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="errhandler\errcode-internal.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="errhandler\errhandler.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="errhandler\errhandler_predefined.h">
+      <Filter>errhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="file\file.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="group\group.h">
+      <Filter>group</Filter>
+    </ClInclude>
+    <ClInclude Include="group\group_dbg.h">
+      <Filter>group</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpif-constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpif-externals.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpif-handles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpif-io-constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpif-io-handles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpif-sentinels.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ompi_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ompi\constants.h">
+      <Filter>include\ompi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ompi\frameworks.h">
+      <Filter>include\ompi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ompi\memchecker.h">
+      <Filter>include\ompi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ompi\totalview.h">
+      <Filter>include\ompi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ompi\types.h">
+      <Filter>include\ompi</Filter>
+    </ClInclude>
+    <ClInclude Include="info\info.h">
+      <Filter>info</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\mca.h">
+      <Filter>mca\bml</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\bml\base\base.h">
+      <Filter>mca\bml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\bml\base\bml_base_btl.h">
+      <Filter>mca\bml\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\bml\r2\bml_r2.h">
+      <Filter>mca\bml\r2</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\bml\r2\bml_r2_ft.h">
+      <Filter>mca\bml\r2</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\base\base.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\base\coll_base_functions.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\base\coll_base_topo.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\base\coll_base_util.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\base\coll_tags.h">
+      <Filter>mca\coll\base</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\basic\coll_basic.h">
+      <Filter>mca\coll\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\cuda\coll_cuda.h">
+      <Filter>mca\coll\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\fca\coll_fca.h">
+      <Filter>mca\coll\fca</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\fca\coll_fca_api.h">
+      <Filter>mca\coll\fca</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\fca\coll_fca_convertor.h">
+      <Filter>mca\coll\fca</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\fca\coll_fca_debug.h">
+      <Filter>mca\coll\fca</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\hcoll\coll_hcoll.h">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\hcoll\coll_hcoll_debug.h">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\hcoll\coll_hcoll_dtypes.h">
+      <Filter>mca\coll\hcoll</Filter>
+    </ClInclude>
+    <ClInclude Include="mca\coll\inter\coll_inter.h">
+      <Filter>mca\coll\inter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
