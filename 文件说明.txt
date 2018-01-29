@@ -1,16 +1,15 @@
-Include -- ������ͷ�ļ�
-Src -- Դ���ļ�
+OpenMPI-Chain 是重新构造的OpenMPI协议
 
-Include :
-Data -- ����ͷ�ļ�
-Roi -- ��ͬ��״������ͷ�ļ�
+OpenMPI-Chain 分为五个部分:
 
-Src :
+OpenmPi 协议接口（主要提供对 MPI的接口以及辅助逻辑）
 
-BasicsData -- ��������Դ���ļ�
+OpenAl  节点数据交互源代码（负责与操作系统的交互）
 
-Image -- ͼƬ����Դ���ļ�
+OpenRte 节点个数统计文件源码（供与后台运行系统的接口）
 
-Roi -- ��ͬ��״������Դ�ļ�
+OpenSHMEM  共享内存文件源码
 
-UI -- UI����ͷ�ʼ�
+OpenChain  区块链协议层
+
+
