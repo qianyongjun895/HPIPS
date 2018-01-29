@@ -12,6 +12,7 @@ OpenSHMEM  共享内存文件源码
 
 OpenChain  区块链协议层
 
+HPIPS 白皮书：详细介绍项目的开发目的和开发方向。
 
 Openmpi-chain is the reconstructed Openmpi protocol.
 
