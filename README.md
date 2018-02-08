@@ -13,3 +13,5 @@ The project is mainly to overcome the technical bottleneck, to conquer the futur
 	In the field of intelligent driving and future things networking for image processing, data analysis and other AI core technology to make a key breakthrough. In the ecological construction will rely on the block chain core technology, complete the ecological Sharing and incentive scheme, so that the ecological prosperity and fairness.
 
 The main purpose of ecology is to share and excavate redundant computer forces in life and to be used in the field of AI computing to reduce hardware costs and improve efficiency.
+
+项目已经开始具体项目开发工作，可以通过https://www.showdoc.cc/17726770027418?page_id=105996352986647 了解详细的开发情况
